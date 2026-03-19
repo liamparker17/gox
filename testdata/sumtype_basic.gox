@@ -1,0 +1,10 @@
+package orders
+
+import "time"
+
+sumtype OrderState {
+	Pending
+	Paid { amount: float64, paidAt: time.Time }
+	Shipped { trackingNumber: string }
+	Cancelled { reason: string }
+}
