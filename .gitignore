@@ -1,0 +1,15 @@
+# Compiled binaries
+gox
+gox.exe
+
+# Generated Go files in testdata
+testdata/*_gen.go
+testdata/*_actual.go
+
+# Go build cache
+*.test
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
