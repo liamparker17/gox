@@ -9,6 +9,9 @@ testdata/*_actual.go
 # Go build cache
 *.test
 
+# Internal design docs
+docs/superpowers/
+
 # IDE/editor
 .idea/
 .vscode/
