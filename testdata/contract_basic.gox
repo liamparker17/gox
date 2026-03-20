@@ -1,0 +1,20 @@
+package users
+
+import "time"
+
+contract CreateUser {
+	input {
+		email: string @required @email
+		password: string @required @minlen(8)
+		name: string @optional
+	}
+	output {
+		id: string
+		createdAt: time.Time
+	}
+	errors {
+		EmailTaken 409
+		WeakPassword 400
+	}
+	route POST /api/users
+}
