@@ -1,0 +1,20 @@
+package orders
+
+import "time"
+import "fmt"
+
+sumtype OrderState {
+	Pending
+	Paid { amount: float64, paidAt: time.Time }
+	Shipped { trackingNumber: string }
+	Cancelled { reason: string }
+}
+
+func HandleOrder(state OrderState) {
+	match state : OrderState {
+		Pending => fmt.Println("waiting")
+		Paid(amount, paidAt) => fmt.Printf("paid %f at %v", amount, paidAt)
+		Shipped(trackingNumber) => fmt.Println("shipped:", trackingNumber)
+		Cancelled(reason) => fmt.Println("cancelled:", reason)
+	}
+}
