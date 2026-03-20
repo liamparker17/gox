@@ -3,7 +3,7 @@ package analyzer
 import (
 	"fmt"
 
-	"github.com/liamp/gox/ast"
+	"github.com/liamparker17/gox/ast"
 )
 
 func (a *analyzer) resolveMatchType(m *ast.Match) {

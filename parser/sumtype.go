@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/liamp/gox/ast"
-	"github.com/liamp/gox/lexer"
+	"github.com/liamparker17/gox/ast"
+	"github.com/liamparker17/gox/lexer"
 )
 
 func (p *Parser) parseSumType() *ast.SumType {

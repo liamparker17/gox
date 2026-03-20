@@ -1,6 +1,6 @@
 package lexer
 
-import "github.com/liamp/gox/ast"
+import "github.com/liamparker17/gox/ast"
 
 type TokenKind int
 

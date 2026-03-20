@@ -3,7 +3,7 @@ package analyzer
 import (
 	"testing"
 
-	"github.com/liamp/gox/parser"
+	"github.com/liamparker17/gox/parser"
 )
 
 func TestExhaustivenessPass(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/liamp/gox/ast"
+	"github.com/liamparker17/gox/ast"
 )
 
 type OutputFile struct {

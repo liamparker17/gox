@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/liamp/gox/ast"
-	"github.com/liamp/gox/lexer"
+	"github.com/liamparker17/gox/ast"
+	"github.com/liamparker17/gox/lexer"
 )
 
 type Parser struct {

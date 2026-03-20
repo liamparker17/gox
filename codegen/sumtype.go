@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/liamp/gox/ast"
+	"github.com/liamparker17/gox/ast"
 )
 
 func (g *Generator) emitSumType(st *ast.SumType) string {

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/liamp/gox/analyzer"
-	"github.com/liamp/gox/ast"
-	"github.com/liamp/gox/codegen"
-	"github.com/liamp/gox/parser"
+	"github.com/liamparker17/gox/analyzer"
+	"github.com/liamparker17/gox/ast"
+	"github.com/liamparker17/gox/codegen"
+	"github.com/liamparker17/gox/parser"
 )
 
 func main() {

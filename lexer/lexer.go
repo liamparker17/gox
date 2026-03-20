@@ -4,7 +4,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/liamp/gox/ast"
+	"github.com/liamparker17/gox/ast"
 )
 
 type Lexer struct {

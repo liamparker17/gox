@@ -3,7 +3,7 @@ package parser
 import (
 	"testing"
 
-	"github.com/liamp/gox/ast"
+	"github.com/liamparker17/gox/ast"
 )
 
 func TestParseSumType(t *testing.T) {

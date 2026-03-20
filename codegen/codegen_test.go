@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/liamp/gox/parser"
+	"github.com/liamparker17/gox/parser"
 )
 
 func TestGoldenContract(t *testing.T) {
